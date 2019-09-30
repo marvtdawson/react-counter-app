@@ -5,7 +5,10 @@ button {
     color: white;
     width: 10rem;
 }
-
 .counter {
 
+}
+.count {
+    font-size: 5rem;
+    padding: 1rem;
 }
