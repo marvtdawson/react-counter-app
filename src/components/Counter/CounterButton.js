@@ -1,8 +1,20 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import './Counter.css';
+import './CounterButton.css';
 
 class Counter extends Component {
+    render() {
+        return (
+            <div className="counter">
+                <CounterButton by = {1}/>
+                <CounterButton by = {5}/>
+                <CounterButton by = {10}/>
+            </div>
+        );
+    }
+}
+
+class CounterButton extends Component {
     constructor() {
         super();
         this.state = {
@@ -30,13 +42,13 @@ class Counter extends Component {
 
 }
 
-Counter.defaultProps = {
+CounterButton.defaultProps = {
     by : 1
-}
+};
 
 // eslint-disable-next-line no-undef
-Counter.propTypes = {
+CounterButton.propTypes = {
     by : PropTypes.number
-}
+};
 
 export default Counter;

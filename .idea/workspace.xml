@@ -25,9 +25,9 @@
   <component name="ChangeListManager">
     <list default="true" id="14981a33-2e79-446a-bede-5ce81450b411" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Counter/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Counter/Counter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Counter/Counter.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Counter/CounterButton.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Counter/Counter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Counter/CounterButton.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +100,7 @@
       <updated>1569785450708</updated>
       <workItem from="1569785452608" duration="2083000" />
       <workItem from="1569791983142" duration="1437000" />
-      <workItem from="1569795758153" duration="5221000" />
+      <workItem from="1569795758153" duration="6061000" />
     </task>
     <servers />
   </component>
