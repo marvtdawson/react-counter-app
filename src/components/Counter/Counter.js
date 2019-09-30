@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import './Counter.css';
 
 class Counter extends Component {
@@ -22,11 +23,20 @@ class Counter extends Component {
     };
 
     increment (){
-    this.setState({
-        counter: this.state.counter + this.props.by
-    });
+        this.setState({
+            counter: this.state.counter + this.props.by
+        });
+    }
+
 }
 
+Counter.defaultProps = {
+    by : 1
+}
+
+// eslint-disable-next-line no-undef
+Counter.propTypes = {
+    by : PropTypes.number
 }
 
 export default Counter;
